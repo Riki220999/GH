@@ -1,0 +1,24 @@
+{
+  "name": "object-change-callsite",
+  "description": "Determine the callsite of an object change using Proxies",
+  "version": "1.0.5",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "nodemon .",
+    "test": "standart && npm run deps",
+		"fix":"standart --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "keywords": [
+    "object",
+    "change",
+    "callsite",
+    "proxy"
+  ],
+  "license": "MIT"
+}
